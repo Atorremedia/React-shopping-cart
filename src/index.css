@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Helvetica, Arial, sans-serif
 }
@@ -21,6 +25,11 @@ a {
 .row {
   display: flex;
   justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.product {
+  margin: 1em;
 }
 .col-1 {
   flex: 1;
